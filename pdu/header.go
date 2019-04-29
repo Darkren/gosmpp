@@ -1,8 +1,6 @@
 package pdu
 
-import (
-	"bitbucket.org/Darkren/smpp-client/smpp/converter"
-)
+import "github.com/Darkren/gosmpp/converter"
 
 // Header is a header of any valid SMPP package
 type Header struct {

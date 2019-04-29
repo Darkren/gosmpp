@@ -1,8 +1,6 @@
 package pdu
 
-import (
-	"bitbucket.org/Darkren/smpp-client/smpp/converter"
-)
+import "github.com/Darkren/gosmpp/converter"
 
 type TLV struct {
 	Tag    Tag
